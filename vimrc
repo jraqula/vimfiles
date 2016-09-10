@@ -67,5 +67,7 @@ runtime! config/lang/yaml.vim
 runtime! lib/functions.vim
 runtime! lib/autocommands.vim
 
+autocmd! QuitPre * let g:neomake_verbose = 0
+
 silent! source ~/.vimrc.local
 
